@@ -1,3 +1,50 @@
-<h1>
-  {{title}}
-</h1>
+<!-- /. NAV TOP  -->
+                <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+				<li class="text-center">
+                    <img src="assets/img/find_user.png" class="user-image img-responsive"/>
+					</li>
+				
+					
+                    <li>
+                        <a href="#"><i class="fa fa-sitemap fa-3x"></i> Produits<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a routerLink="/ajouterprod">Ajouter</a>
+                            </li>
+                            <li>
+                                <a href="#">Modifier</a>
+                            </li>
+                            <li>
+                                <a href="#">Supprimer</a>
+                            </li>
+                            <li>
+                                <a routerLink="/listprod">Liste</a>
+                            </li>
+                        </ul>
+                      </li> 
+                    <li>
+                        <a href="#"><i class="fa fa-sitemap fa-3x"></i> Magazins<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#">Ajouter</a>
+                            </li>
+                            <li>
+                                <a href="#">Modifier</a>
+                            </li>
+                            <li>
+                                <a href="#">Supprimer</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a  href="form.html"><i class="fa fa-edit fa-3x"></i> Forms </a>
+                    </li>
+                </ul>
+               
+            </div>
+            
+        </nav>  
+
+        <router-outlet></router-outlet>
