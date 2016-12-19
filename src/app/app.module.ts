@@ -31,6 +31,6 @@ import {ListProduitComponent} from './produits/listproduit/listproduit.component
     ])
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, ]
 })
 export class AppModule { }
